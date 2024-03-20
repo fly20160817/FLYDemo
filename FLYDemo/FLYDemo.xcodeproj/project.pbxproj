@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043100022BAB47D0006515BC /* FLYObject3_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 043100012BAB47D0006515BC /* FLYObject3_2.m */; };
+		043100052BAB47D7006515BC /* FLYObject3_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 043100042BAB47D7006515BC /* FLYObject3_3.m */; };
+		043100082BAB47E3006515BC /* FLYObject4_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 043100072BAB47E3006515BC /* FLYObject4_1.m */; };
+		0431000B2BAB47EA006515BC /* FLYObject4_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431000A2BAB47EA006515BC /* FLYObject4_2.m */; };
+		0431000E2BAB47F1006515BC /* FLYObject4_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431000D2BAB47F1006515BC /* FLYObject4_3.m */; };
+		043100112BAB47FA006515BC /* FLYObject5_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 043100102BAB47FA006515BC /* FLYObject5_1.m */; };
+		043100142BAB4800006515BC /* FLYObject5_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 043100132BAB4800006515BC /* FLYObject5_2.m */; };
+		043100172BAB480B006515BC /* FLYObject5_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 043100162BAB480B006515BC /* FLYObject5_3.m */; };
+		0431FFCC2BAB4729006515BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431FFCB2BAB4729006515BC /* AppDelegate.m */; };
+		0431FFCF2BAB4729006515BC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431FFCE2BAB4729006515BC /* SceneDelegate.m */; };
+		0431FFD22BAB4729006515BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431FFD12BAB4729006515BC /* ViewController.m */; };
+		0431FFD52BAB4729006515BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0431FFD32BAB4729006515BC /* Main.storyboard */; };
+		0431FFD72BAB472B006515BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0431FFD62BAB472B006515BC /* Assets.xcassets */; };
+		0431FFDA2BAB472B006515BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0431FFD82BAB472B006515BC /* LaunchScreen.storyboard */; };
+		0431FFDD2BAB472B006515BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431FFDC2BAB472B006515BC /* main.m */; };
+		0431FFED2BAB478A006515BC /* FLYObject1_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431FFEC2BAB478A006515BC /* FLYObject1_2.m */; };
+		0431FFF02BAB4799006515BC /* FLYObject1_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431FFEF2BAB4799006515BC /* FLYObject1_1.m */; };
+		0431FFF32BAB47A5006515BC /* FLYObject1_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431FFF22BAB47A5006515BC /* FLYObject1_3.m */; };
+		0431FFF62BAB47AF006515BC /* FLYObject2_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431FFF52BAB47AF006515BC /* FLYObject2_1.m */; };
+		0431FFF92BAB47B6006515BC /* FLYObject2_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431FFF82BAB47B6006515BC /* FLYObject2_2.m */; };
+		0431FFFC2BAB47BF006515BC /* FLYObject2_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431FFFB2BAB47BF006515BC /* FLYObject2_3.m */; };
+		0431FFFF2BAB47C8006515BC /* FLYObject3_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431FFFE2BAB47C8006515BC /* FLYObject3_1.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		043100002BAB47D0006515BC /* FLYObject3_2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLYObject3_2.h; sourceTree = "<group>"; };
+		043100012BAB47D0006515BC /* FLYObject3_2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLYObject3_2.m; sourceTree = "<group>"; };
+		043100032BAB47D7006515BC /* FLYObject3_3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLYObject3_3.h; sourceTree = "<group>"; };
+		043100042BAB47D7006515BC /* FLYObject3_3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLYObject3_3.m; sourceTree = "<group>"; };
+		043100062BAB47E3006515BC /* FLYObject4_1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLYObject4_1.h; sourceTree = "<group>"; };
+		043100072BAB47E3006515BC /* FLYObject4_1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLYObject4_1.m; sourceTree = "<group>"; };
+		043100092BAB47EA006515BC /* FLYObject4_2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLYObject4_2.h; sourceTree = "<group>"; };
+		0431000A2BAB47EA006515BC /* FLYObject4_2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLYObject4_2.m; sourceTree = "<group>"; };
+		0431000C2BAB47F1006515BC /* FLYObject4_3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLYObject4_3.h; sourceTree = "<group>"; };
+		0431000D2BAB47F1006515BC /* FLYObject4_3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLYObject4_3.m; sourceTree = "<group>"; };
+		0431000F2BAB47FA006515BC /* FLYObject5_1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLYObject5_1.h; sourceTree = "<group>"; };
+		043100102BAB47FA006515BC /* FLYObject5_1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLYObject5_1.m; sourceTree = "<group>"; };
+		043100122BAB4800006515BC /* FLYObject5_2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLYObject5_2.h; sourceTree = "<group>"; };
+		043100132BAB4800006515BC /* FLYObject5_2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLYObject5_2.m; sourceTree = "<group>"; };
+		043100152BAB480B006515BC /* FLYObject5_3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLYObject5_3.h; sourceTree = "<group>"; };
+		043100162BAB480B006515BC /* FLYObject5_3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLYObject5_3.m; sourceTree = "<group>"; };
+		0431FFC72BAB4729006515BC /* FLYDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLYDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0431FFCA2BAB4729006515BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0431FFCB2BAB4729006515BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0431FFCD2BAB4729006515BC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		0431FFCE2BAB4729006515BC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		0431FFD02BAB4729006515BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0431FFD12BAB4729006515BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0431FFD42BAB4729006515BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0431FFD62BAB472B006515BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0431FFD92BAB472B006515BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0431FFDB2BAB472B006515BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0431FFDC2BAB472B006515BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0431FFEB2BAB478A006515BC /* FLYObject1_2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLYObject1_2.h; sourceTree = "<group>"; };
+		0431FFEC2BAB478A006515BC /* FLYObject1_2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLYObject1_2.m; sourceTree = "<group>"; };
+		0431FFEE2BAB4799006515BC /* FLYObject1_1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLYObject1_1.h; sourceTree = "<group>"; };
+		0431FFEF2BAB4799006515BC /* FLYObject1_1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLYObject1_1.m; sourceTree = "<group>"; };
+		0431FFF12BAB47A5006515BC /* FLYObject1_3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLYObject1_3.h; sourceTree = "<group>"; };
+		0431FFF22BAB47A5006515BC /* FLYObject1_3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLYObject1_3.m; sourceTree = "<group>"; };
+		0431FFF42BAB47AF006515BC /* FLYObject2_1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLYObject2_1.h; sourceTree = "<group>"; };
+		0431FFF52BAB47AF006515BC /* FLYObject2_1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLYObject2_1.m; sourceTree = "<group>"; };
+		0431FFF72BAB47B6006515BC /* FLYObject2_2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLYObject2_2.h; sourceTree = "<group>"; };
+		0431FFF82BAB47B6006515BC /* FLYObject2_2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLYObject2_2.m; sourceTree = "<group>"; };
+		0431FFFA2BAB47BF006515BC /* FLYObject2_3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLYObject2_3.h; sourceTree = "<group>"; };
+		0431FFFB2BAB47BF006515BC /* FLYObject2_3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLYObject2_3.m; sourceTree = "<group>"; };
+		0431FFFD2BAB47C8006515BC /* FLYObject3_1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLYObject3_1.h; sourceTree = "<group>"; };
+		0431FFFE2BAB47C8006515BC /* FLYObject3_1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLYObject3_1.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0431FFC42BAB4729006515BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0431FFBE2BAB4729006515BC = {
+			isa = PBXGroup;
+			children = (
+				0431FFC92BAB4729006515BC /* FLYDemo */,
+				0431FFC82BAB4729006515BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0431FFC82BAB4729006515BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0431FFC72BAB4729006515BC /* FLYDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0431FFC92BAB4729006515BC /* FLYDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0431FFE72BAB4744006515BC /* 1 */,
+				0431FFE62BAB4742006515BC /* 2 */,
+				0431FFE52BAB473C006515BC /* 3 */,
+				0431FFE42BAB4739006515BC /* 4 */,
+				0431FFE32BAB4736006515BC /* 5 */,
+				0431FFCA2BAB4729006515BC /* AppDelegate.h */,
+				0431FFCB2BAB4729006515BC /* AppDelegate.m */,
+				0431FFCD2BAB4729006515BC /* SceneDelegate.h */,
+				0431FFCE2BAB4729006515BC /* SceneDelegate.m */,
+				0431FFD02BAB4729006515BC /* ViewController.h */,
+				0431FFD12BAB4729006515BC /* ViewController.m */,
+				0431FFD32BAB4729006515BC /* Main.storyboard */,
+				0431FFD62BAB472B006515BC /* Assets.xcassets */,
+				0431FFD82BAB472B006515BC /* LaunchScreen.storyboard */,
+				0431FFDB2BAB472B006515BC /* Info.plist */,
+				0431FFDC2BAB472B006515BC /* main.m */,
+			);
+			path = FLYDemo;
+			sourceTree = "<group>";
+		};
+		0431FFE32BAB4736006515BC /* 5 */ = {
+			isa = PBXGroup;
+			children = (
+				0431000F2BAB47FA006515BC /* FLYObject5_1.h */,
+				043100102BAB47FA006515BC /* FLYObject5_1.m */,
+				043100122BAB4800006515BC /* FLYObject5_2.h */,
+				043100132BAB4800006515BC /* FLYObject5_2.m */,
+				043100152BAB480B006515BC /* FLYObject5_3.h */,
+				043100162BAB480B006515BC /* FLYObject5_3.m */,
+			);
+			path = 5;
+			sourceTree = "<group>";
+		};
+		0431FFE42BAB4739006515BC /* 4 */ = {
+			isa = PBXGroup;
+			children = (
+				043100062BAB47E3006515BC /* FLYObject4_1.h */,
+				043100072BAB47E3006515BC /* FLYObject4_1.m */,
+				043100092BAB47EA006515BC /* FLYObject4_2.h */,
+				0431000A2BAB47EA006515BC /* FLYObject4_2.m */,
+				0431000C2BAB47F1006515BC /* FLYObject4_3.h */,
+				0431000D2BAB47F1006515BC /* FLYObject4_3.m */,
+			);
+			path = 4;
+			sourceTree = "<group>";
+		};
+		0431FFE52BAB473C006515BC /* 3 */ = {
+			isa = PBXGroup;
+			children = (
+				0431FFFD2BAB47C8006515BC /* FLYObject3_1.h */,
+				0431FFFE2BAB47C8006515BC /* FLYObject3_1.m */,
+				043100002BAB47D0006515BC /* FLYObject3_2.h */,
+				043100012BAB47D0006515BC /* FLYObject3_2.m */,
+				043100032BAB47D7006515BC /* FLYObject3_3.h */,
+				043100042BAB47D7006515BC /* FLYObject3_3.m */,
+			);
+			path = 3;
+			sourceTree = "<group>";
+		};
+		0431FFE62BAB4742006515BC /* 2 */ = {
+			isa = PBXGroup;
+			children = (
+				0431FFF42BAB47AF006515BC /* FLYObject2_1.h */,
+				0431FFF52BAB47AF006515BC /* FLYObject2_1.m */,
+				0431FFF72BAB47B6006515BC /* FLYObject2_2.h */,
+				0431FFF82BAB47B6006515BC /* FLYObject2_2.m */,
+				0431FFFA2BAB47BF006515BC /* FLYObject2_3.h */,
+				0431FFFB2BAB47BF006515BC /* FLYObject2_3.m */,
+			);
+			path = 2;
+			sourceTree = "<group>";
+		};
+		0431FFE72BAB4744006515BC /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+				0431FFEE2BAB4799006515BC /* FLYObject1_1.h */,
+				0431FFEF2BAB4799006515BC /* FLYObject1_1.m */,
+				0431FFEB2BAB478A006515BC /* FLYObject1_2.h */,
+				0431FFEC2BAB478A006515BC /* FLYObject1_2.m */,
+				0431FFF12BAB47A5006515BC /* FLYObject1_3.h */,
+				0431FFF22BAB47A5006515BC /* FLYObject1_3.m */,
+			);
+			path = 1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0431FFC62BAB4729006515BC /* FLYDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0431FFE02BAB472B006515BC /* Build configuration list for PBXNativeTarget "FLYDemo" */;
+			buildPhases = (
+				0431FFC32BAB4729006515BC /* Sources */,
+				0431FFC42BAB4729006515BC /* Frameworks */,
+				0431FFC52BAB4729006515BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLYDemo;
+			productName = FLYDemo;
+			productReference = 0431FFC72BAB4729006515BC /* FLYDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0431FFBF2BAB4729006515BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					0431FFC62BAB4729006515BC = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 0431FFC22BAB4729006515BC /* Build configuration list for PBXProject "FLYDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0431FFBE2BAB4729006515BC;
+			productRefGroup = 0431FFC82BAB4729006515BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0431FFC62BAB4729006515BC /* FLYDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0431FFC52BAB4729006515BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0431FFDA2BAB472B006515BC /* LaunchScreen.storyboard in Resources */,
+				0431FFD72BAB472B006515BC /* Assets.xcassets in Resources */,
+				0431FFD52BAB4729006515BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0431FFC32BAB4729006515BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0431FFF02BAB4799006515BC /* FLYObject1_1.m in Sources */,
+				043100142BAB4800006515BC /* FLYObject5_2.m in Sources */,
+				0431000E2BAB47F1006515BC /* FLYObject4_3.m in Sources */,
+				0431FFFC2BAB47BF006515BC /* FLYObject2_3.m in Sources */,
+				0431FFD22BAB4729006515BC /* ViewController.m in Sources */,
+				043100082BAB47E3006515BC /* FLYObject4_1.m in Sources */,
+				043100022BAB47D0006515BC /* FLYObject3_2.m in Sources */,
+				0431FFCC2BAB4729006515BC /* AppDelegate.m in Sources */,
+				0431FFDD2BAB472B006515BC /* main.m in Sources */,
+				0431FFF92BAB47B6006515BC /* FLYObject2_2.m in Sources */,
+				0431FFCF2BAB4729006515BC /* SceneDelegate.m in Sources */,
+				043100172BAB480B006515BC /* FLYObject5_3.m in Sources */,
+				0431FFF62BAB47AF006515BC /* FLYObject2_1.m in Sources */,
+				0431FFED2BAB478A006515BC /* FLYObject1_2.m in Sources */,
+				0431000B2BAB47EA006515BC /* FLYObject4_2.m in Sources */,
+				0431FFF32BAB47A5006515BC /* FLYObject1_3.m in Sources */,
+				043100052BAB47D7006515BC /* FLYObject3_3.m in Sources */,
+				043100112BAB47FA006515BC /* FLYObject5_1.m in Sources */,
+				0431FFFF2BAB47C8006515BC /* FLYObject3_1.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0431FFD32BAB4729006515BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0431FFD42BAB4729006515BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0431FFD82BAB472B006515BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0431FFD92BAB472B006515BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0431FFDE2BAB472B006515BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0431FFDF2BAB472B006515BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0431FFE12BAB472B006515BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NQL5TQ97YZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FLYDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fly.FLYDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0431FFE22BAB472B006515BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NQL5TQ97YZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FLYDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fly.FLYDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0431FFC22BAB4729006515BC /* Build configuration list for PBXProject "FLYDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0431FFDE2BAB472B006515BC /* Debug */,
+				0431FFDF2BAB472B006515BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0431FFE02BAB472B006515BC /* Build configuration list for PBXNativeTarget "FLYDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0431FFE12BAB472B006515BC /* Debug */,
+				0431FFE22BAB472B006515BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0431FFBF2BAB4729006515BC /* Project object */;
+}
