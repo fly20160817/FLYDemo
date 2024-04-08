@@ -19,10 +19,10 @@ NS_ASSUME_NONNULL_BEGIN
 // 添加一个新的模型对象
 + (void)addModel:(id<FLYDataProtocol>)model;
 
-// 删除一个模型对象   (未实现)
+// 删除一个模型对象
 + (void)removeModel:(id<FLYDataProtocol>)model;
 
-// 修改一个模型对象   (未实现)
+// 修改一个模型对象
 + (void)updateModel:(id<FLYDataProtocol>)model;
 
 // 获取指定类的所有模型对象数组
