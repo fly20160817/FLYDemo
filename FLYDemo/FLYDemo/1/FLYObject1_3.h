@@ -1,15 +1,18 @@
 //
-//  FLYObject1_3.h
-//  FLYDemo
+//  FLYDataProtocol.h
+//  FXActionCamer
 //
-//  Created by fly on 2024/3/21.
+//  Created by RXTMacPro3 on 2024/4/8.
+//  Copyright © 2024 RIXTON. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface FLYObject1_3 : NSObject
+@protocol FLYDataProtocol <NSObject>
+
+@property (nonatomic, readonly) NSString * identity;
 
 @end
 
