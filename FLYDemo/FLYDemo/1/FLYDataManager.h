@@ -7,22 +7,26 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "FLYDataProtocol.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface FLYDataManager : NSObject
 
+// 必须遵守 FLYDataProtocol 协议的对象才能调用，协议内定一个id属性，内部用来查找用。
+
+
 // 添加一个新的模型对象
-+ (void)addModel:(id)model;
++ (void)addModel:(id<FLYDataProtocol>)model;
 
 // 删除一个模型对象   (未实现)
-+ (void)removeModel:(id)model;
++ (void)removeModel:(id<FLYDataProtocol>)model;
 
 // 修改一个模型对象   (未实现)
-+ (void)updateModel:(id)model;
++ (void)updateModel:(id<FLYDataProtocol>)model;
 
 // 获取指定类的所有模型对象数组
-+ (NSMutableArray *)getAllModelsForClass:(Class)modelClass;
++ (NSMutableArray *)getAllModelsForClass:(Class<FLYDataProtocol>)modelClass;
 
 @end
 
