@@ -15,7 +15,7 @@
 #pragma mark - public methods
 
 // 添加一个新的模型对象
-+ (void)addModel:(id)model
++ (void)addModel:(id<FLYDataProtocol>)model
 {
     // 获取指定类的所有模型对象数组
     NSMutableArray *models = [self getAllModelsForClass:[model class]];
@@ -28,40 +28,50 @@
 }
 
 // 删除一个模型对象
-+ (void)removeModel:(id)model
++ (void)removeModel:(id<FLYDataProtocol>)model
 {
     // 获取指定类的所有模型对象数组
     NSMutableArray *models = [self getAllModelsForClass:[model class]];
     
     // 从数组中移除指定的模型对象
-    [models removeObject:model];
+    [models enumerateObjectsWithOptions:NSEnumerationReverse usingBlock:^(id<FLYDataProtocol>  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        
+        if ( [obj.identity isEqualToString:model.identity] )
+        {
+            [models removeObjectAtIndex:idx];
+            
+            // 不能使用removeObject方法，它是根据对象的内存地址来判断是否移除的，我们传进来的对象和数组里的对象可能内容是一样的，但内存地址不一样
+            //[models removeObject:model];
+        }
+    }];
     
     // 保存更新后的模型对象数组到文件
     [self saveModels:models forClass:[model class]];
 }
 
 // 修改一个模型对象
-+ (void)updateModel:(id)model
++ (void)updateModel:(id<FLYDataProtocol>)model
 {
     // 获取指定类的所有模型对象数组
     NSMutableArray *models = [self getAllModelsForClass:[model class]];
     
-    // 查找指定模型对象在数组中的索引位置
-    NSUInteger index = [models indexOfObject:model];
     
-    // 如果找到了指定模型对象
-    if (index != NSNotFound) {
-        // 用新的模型对象替换数组中相应位置的旧模型对象
-        [models replaceObjectAtIndex:index withObject:model];
+    [models enumerateObjectsWithOptions:NSEnumerationReverse usingBlock:^(id<FLYDataProtocol>  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         
-        // 保存更新后的模型对象数组到文件
-        [self saveModels:models forClass:[model class]];
-    }
+        if ( [obj.identity isEqualToString:model.identity] )
+        {
+            // 用新的模型对象替换数组中相应位置的旧模型对象
+            [models replaceObjectAtIndex:idx withObject:model];
+            
+            // 保存更新后的模型对象数组到文件
+            [self saveModels:models forClass:[model class]];
+        }
+    }];
 }
 
 
 // 获取指定类的所有模型对象数组
-+ (NSMutableArray *)getAllModelsForClass:(Class)modelClass
++ (NSMutableArray *)getAllModelsForClass:(Class<FLYDataProtocol>)modelClass
 {
     // 从文件中读取保存的模型对象数组的二进制数据
     NSData *data = [NSData dataWithContentsOfFile:[self filePathForModelsForClass:modelClass]];
