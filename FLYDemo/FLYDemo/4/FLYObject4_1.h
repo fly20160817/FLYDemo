@@ -21,6 +21,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (void)readDocumentData;
 
+// 待开发
+// 1.readDocumentData最好是在block返回选择的路径
+// 2.FLYPhotoManager方法增加保存视频的功能
+
 @end
 
 NS_ASSUME_NONNULL_END
