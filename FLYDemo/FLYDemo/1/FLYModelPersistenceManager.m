@@ -15,7 +15,7 @@
 #pragma mark - public methods
 
 // 添加一个新的模型对象
-+ (void)addModel:(id<FLYDataProtocol>)model
++ (void)addModel:(id<FLYModelPersistenceProtocol>)model
 {
     // 获取指定类的所有模型对象数组
     NSMutableArray *models = [self getAllModelsForClass:[model class]];
@@ -28,13 +28,13 @@
 }
 
 // 删除一个模型对象
-+ (void)removeModel:(id<FLYDataProtocol>)model
++ (void)removeModel:(id<FLYModelPersistenceProtocol>)model
 {
     // 获取指定类的所有模型对象数组
     NSMutableArray *models = [self getAllModelsForClass:[model class]];
     
     // 从数组中移除指定的模型对象
-    [models enumerateObjectsWithOptions:NSEnumerationReverse usingBlock:^(id<FLYDataProtocol>  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+    [models enumerateObjectsWithOptions:NSEnumerationReverse usingBlock:^(id<FLYModelPersistenceProtocol>  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         
         if ( [obj.identity isEqualToString:model.identity] )
         {
@@ -50,13 +50,13 @@
 }
 
 // 修改一个模型对象
-+ (void)updateModel:(id<FLYDataProtocol>)model
++ (void)updateModel:(id<FLYModelPersistenceProtocol>)model
 {
     // 获取指定类的所有模型对象数组
     NSMutableArray *models = [self getAllModelsForClass:[model class]];
     
     
-    [models enumerateObjectsWithOptions:NSEnumerationReverse usingBlock:^(id<FLYDataProtocol>  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+    [models enumerateObjectsWithOptions:NSEnumerationReverse usingBlock:^(id<FLYModelPersistenceProtocol>  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         
         if ( [obj.identity isEqualToString:model.identity] )
         {
@@ -71,7 +71,7 @@
 
 
 // 获取指定类的所有模型对象数组
-+ (NSMutableArray *)getAllModelsForClass:(Class<FLYDataProtocol>)modelClass
++ (NSMutableArray *)getAllModelsForClass:(Class<FLYModelPersistenceProtocol>)modelClass
 {
     // 从文件中读取保存的模型对象数组的二进制数据
     NSData *data = [NSData dataWithContentsOfFile:[self filePathForModelsForClass:modelClass]];
