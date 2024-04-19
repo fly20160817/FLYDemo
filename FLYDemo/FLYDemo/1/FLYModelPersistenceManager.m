@@ -74,7 +74,7 @@
 + (NSMutableArray *)getAllModelsForClass:(Class)modelClass
 {
     
-    NSAssert([modelClass isKindOfClass:[FLYCodableModel class]], @"Model类不是 FLYCodableModel 的子类");
+    NSAssert([modelClass isSubclassOfClass:[FLYCodableModel class]], @"Model类不是 FLYCodableModel 的子类");
     
     
     // 从文件中读取保存的模型对象数组的二进制数据
