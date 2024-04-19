@@ -1,5 +1,5 @@
 //
-//  FLYDataManager.h
+//  FLYModelPersistenceManager.h
 //  FXActionCamer
 //
 //  Created by RXTMacPro3 on 2024/3/20.
@@ -11,7 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface FLYDataManager : NSObject
+@interface FLYModelPersistenceManager : NSObject
 
 // 必须遵守 FLYDataProtocol 协议的对象才能调用，协议内定一个id属性，内部用来查找用。
 
