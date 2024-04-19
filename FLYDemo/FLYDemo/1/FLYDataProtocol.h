@@ -1,5 +1,5 @@
 //
-//  FLYDataProtocol.h
+//  FLYModelPersistenceProtocol.h
 //  FXActionCamer
 //
 //  Created by RXTMacPro3 on 2024/4/8.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol FLYDataProtocol <NSObject>
+@protocol FLYModelPersistenceProtocol <NSObject>
 
 @property (nonatomic, readonly) NSString * identity;
 
