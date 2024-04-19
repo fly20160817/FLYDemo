@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface FLYModelPersistenceManager : NSObject
 
-// 必须遵守 FLYModelPersistenceProtocol 协议的对象才能调用，协议内定一个id属性，内部用来查找用。
+// 必须遵守 FLYModelPersistenceProtocol 协议的对象才能调用，协议内有一个id属性，本类内部用来查找model用。
 
 
 // 添加一个新的模型对象
