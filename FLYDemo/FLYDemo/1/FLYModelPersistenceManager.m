@@ -1,14 +1,14 @@
 //
-//  FLYDataManager.m
+//  FLYModelPersistenceManager.m
 //  FXActionCamer
 //
 //  Created by RXTMacPro3 on 2024/3/20.
 //  Copyright © 2024 RIXTON. All rights reserved.
 //
 
-#import "FLYDataManager.h"
+#import "FLYModelPersistenceManager.h"
 
-@implementation FLYDataManager
+@implementation FLYModelPersistenceManager
 
 
 
