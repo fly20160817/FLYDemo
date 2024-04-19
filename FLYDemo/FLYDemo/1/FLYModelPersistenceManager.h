@@ -7,26 +7,26 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "FLYModelPersistenceProtocol.h"
+#import "FLYCodableModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface FLYModelPersistenceManager : NSObject
 
-// 必须遵守 FLYModelPersistenceProtocol 协议的对象才能调用，协议内有一个id属性，本类内部用来查找model用。
+/** 必须是 FLYCodableModel 的子类才能使用本类。FLYCodableModel类内部有归档、解档，还有供本类查询用的id */
 
 
 // 添加一个新的模型对象
-+ (void)addModel:(id<FLYModelPersistenceProtocol>)model;
++ (void)addModel:(FLYCodableModel *)model;
 
 // 删除一个模型对象
-+ (void)removeModel:(id<FLYModelPersistenceProtocol>)model;
++ (void)removeModel:(FLYCodableModel *)model;
 
 // 修改一个模型对象
-+ (void)updateModel:(id<FLYModelPersistenceProtocol>)model;
++ (void)updateModel:(FLYCodableModel *)model;
 
 // 获取指定类的所有模型对象数组
-+ (NSMutableArray *)getAllModelsForClass:(Class<FLYModelPersistenceProtocol>)modelClass;
++ (NSMutableArray *)getAllModelsForClass:(Class)modelClass;
 
 @end
 
